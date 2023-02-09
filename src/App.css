@@ -1,0 +1,31 @@
+body {
+    background-color: lightgrey;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 4px 8px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+th[scope="row"] {
+    text-align: left;
+}
+
+td {
+    text-align: right;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+

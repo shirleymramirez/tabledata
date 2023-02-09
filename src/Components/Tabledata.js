@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 const URL = 'https://jsonplaceholder.typicode.com/comments'
 
 export default function TableData() {
-    const [data, setData] = useState(); 
+    const [data, setData] = useState([]); 
 
     useEffect(()=> {
         const fetchData = async () => {
@@ -13,7 +13,6 @@ export default function TableData() {
         }
         fetchData();
     },[]);
-
     return(
         <>
         <table>
